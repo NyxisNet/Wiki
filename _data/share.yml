@@ -2,6 +2,15 @@
 #  Icons from <https://fontawesome.com/>
 
 platforms:
+
+  - type: Whatsapp
+    icon: "fa-brands fa-whatsapp"
+    link: "https://api.whatsapp.com/send?text=Mira este sitio super cool: URL"
+
+  - type: Telegram
+    icon: "fab fa-telegram"
+    link: "https://t.me/share/url?url=URL&text=TITLE"
+
   - type: Twitter
     icon: "fa-brands fa-square-x-twitter"
     link: "https://twitter.com/intent/tweet?text=TITLE&url=URL"
@@ -10,11 +19,12 @@ platforms:
     icon: "fab fa-facebook-square"
     link: "https://www.facebook.com/sharer/sharer.php?title=TITLE&u=URL"
 
-  - type: Telegram
-    icon: "fab fa-telegram"
-    link: "https://t.me/share/url?url=URL&text=TITLE"
+  - type: Reddit
+    icon: "fa-brands fa-square-reddit"
+    link: "https://www.reddit.com/submit?url=URL&title=TITLE"
 
   # Uncomment below if you need to.
+
   #
   # - type: Linkedin
   #   icon: "fab fa-linkedin"
@@ -40,10 +50,6 @@ platforms:
   # - type: Bluesky
   #   icon: "fa-brands fa-bluesky"
   #   link: "https://bsky.app/intent/compose?text=TITLE%20URL"
-  #
-  # - type: Reddit
-  #   icon: "fa-brands fa-square-reddit"
-  #   link: "https://www.reddit.com/submit?url=URL&title=TITLE"
   #
   # - type: Threads
   #   icon: "fa-brands fa-square-threads"
