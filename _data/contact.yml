@@ -1,18 +1,30 @@
 #  The contact options.
 
-- type: github
-  icon: "fab fa-github"
+# - type: github
+#   icon: "fab fa-github"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+# - type: twitter
+#   icon: "fa-brands fa-x-twitter"
+
+- type: discord
+  icon: "fa-brands fa-discord"
+  url: "http://discord.nyxis.net"
+
+- type: tiktok
+  icon: "fa-brands fa-tiktok"
+  url: "https://www.tiktok.com/@nyxis.net"
+
+- type: twitch
+  icon: "fa-brands fa-twitch"
+  url: "http://twitch.tv/nyxis_net"
 
 - type: email
   icon: "fas fa-envelope"
-  noblank: true # open link in current tab
+  # noblank: true # open link in current tab
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
+# - type: rss
+#   icon: "fas fa-rss"
+#   noblank: true
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
