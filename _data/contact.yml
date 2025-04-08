@@ -8,7 +8,7 @@
 
 - type: discord
   icon: "fa-brands fa-discord"
-  url: "http://discord.nyxis.net"
+  url: "https://discord.com/invite/w2yjBAWfhH"
 
 - type: tiktok
   icon: "fa-brands fa-tiktok"
@@ -16,7 +16,7 @@
 
 - type: twitch
   icon: "fa-brands fa-twitch"
-  url: "http://twitch.tv/nyxis_net"
+  url: "https://twitch.tv/nyxis_net"
 
 - type: email
   icon: "fas fa-envelope"
