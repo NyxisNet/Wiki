@@ -177,7 +177,7 @@ Para encontrar tu diferencia de hora: [usa esta herramienta](https://dencode.com
 ![alt text](../assets/aportar-a-la-wiki/dencode.png)
 _Lista despleglable de países de [dencode.com](https://dencode.com/date/rfc2822)_
 
-<a name="authors-brief"></a>
+<a name="authors-brief" href="#"></a>
 - `authors` especifica los ID de los autores del post, originalmente solo debería incluirte a ti, pero no escribas directamente tu nombre porque así no es como funciona, hablaremos de esto más adelante en [el tema de créditos](#créditos)
 
 Una vez que tengas tu Front Matter completo, puedes empezar a escribir tu post tal y como lo tenías imaginado :D
