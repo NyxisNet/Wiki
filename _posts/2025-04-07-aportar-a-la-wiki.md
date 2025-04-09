@@ -11,6 +11,7 @@ image: # Imagen de la miniatura y portada del post
   path: ../assets/aportar-a-la-wiki/mini.png # Ubicación de la imagen, puede ser relativa (archivo) o por CDN, pero nosotros no usamos CDN... por ahora.
   alt: "Miniatura del post c:" # Subtítulo de la imagen
 permalink: "/aportar" # Solo administradores pueden definir posts con permalinks
+last_modified_at: 2025-04-09 10:30:00 -6000
 ---
 # Aportar a la Wiki
 
@@ -20,7 +21,7 @@ permalink: "/aportar" # Solo administradores pueden definir posts con permalinks
 
 Para escribir cualquier cosa en esta wiki **NO es necesario saber programar**, ya que utilizamos [Markdown](https://markdown.es), una herramienta que nos permite escribir posts en un formato sencillo de leer y sin necesidad de escribir líneas de código ni de estilo.
 
-Markdown tiene una sintásis sencilla (que puedes ver [en este link](https://markdown.es/sintaxis-markdown/) o investigando sobre Markdown), por lo que no lo explicaremos en este post.
+Markdown tiene una sintáxis sencilla (que puedes ver [en este link](https://markdown.es/sintaxis-markdown/) o investigando sobre Markdown), por lo que no lo explicaremos en este post.
 
 ### Chirpy
 
@@ -156,9 +157,9 @@ authors: [eltacodev]
 ```
 
 - `description` da una descripción al post para resumir el contenido cuando se vea el post en la lista de contenidos de la página de inicio, si no se define esto, en vez de una descripción se verá directamente el contenido del sitio en una forma mal presentable, por lo que es muy recomendable incluirlo
-  ![Con descripción](../assets/aportar-a-la-wiki/con-desc.png)
+  ![Con descripción](../assets/aportar-a-la-wiki/sin-desc.png)
   _Publicación sin descripción_
-  ![Sin descripción](../assets/aportar-a-la-wiki/sin-desc.png)
+  ![Sin descripción](../assets/aportar-a-la-wiki/con-desc.png)
   _Publicación CON descripción_
 - `categories` define las categorías **y subcategorías** a las que este post pertence, en este ejemplo, el post pertenecería a `Categoría` como categoría principal y dentro de esta, estaría `Sub Categoría`, donde se encuentra este post, viéndose así:
   
@@ -168,7 +169,7 @@ flowchart TD
     B --> C{Post}
 ```
 
-- `tags` define las etiquetas que identifican a este post, a diferencia de las categorías, estas no tienen orden específico y no se procesan como "sub etiquetas", cada etiqueta es individual y se pueden tener varias para identificar de varias formas un mismo post.
+- `tags` define las etiquetas que identifican a este post, a diferencia de las categorías, estas no tienen orden específico y no se procesan como "sub etiquetas", cada etiqueta es individual y se pueden tener varias para identificar de varias formas un mismo post, recuerda escribir todas tus etiquetas en minúsculas para que la wiki pueda encontrar todas fácilmente.
 - `date` define la hora de la publicación del post, `YYYY` es el año, `MM` es el mes (1-12), `DD` es el día, `HH` es la hora, `mm` es minutos, `SS` es segundos y `+/-TTTT` es la diferencia con UTC que tiene tu zona horaria, por lo que un mejor ejemplo sería: `date: 2025-04-07 19:22:30 -0600` (que es la hora en la que se escribe este tutorial)
 
 Para encontrar tu diferencia de hora: [usa esta herramienta](https://dencode.com/date/rfc2822)
@@ -220,7 +221,7 @@ eltacodev: # ID que se agrega en el Front Matter
   discord: eltacodev # Texto que el autor decidió añadir pero no se usa en la Wiki
 ```
 
-_Front Matter:_
+_Ejemplo de Front Matter usando las configuraciones de este mismo post:_
 ```yaml
 ---
 layout: post # No es necesario poner esto, pero muy recomendable por posibles futuros planes de la Wiki.
