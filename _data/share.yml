@@ -2,7 +2,6 @@
 #  Icons from <https://fontawesome.com/>
 
 platforms:
-
   - type: Whatsapp
     icon: "fa-brands fa-whatsapp"
     link: "https://api.whatsapp.com/send?text=Mira este sitio super cool: URL"
