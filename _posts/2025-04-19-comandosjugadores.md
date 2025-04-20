@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Comandos para jugadores
-date: 2025-04-19 13:22 -0600s
+title: Comandos para Jugadores
+description: Guía detallada de comandos útiles para los jugadores dentro del servidor.
+date: 2025-04-19 13:22 -0600
 authors: [carlosvg7]
 ---
 
@@ -104,4 +105,6 @@ Gana dinero en el servidor realizando actividades específicas mediante trabajos
 
 ---
 
-**Nota:** Algunos comandos pueden estar sujetos a permisos específicos o rangos dentro del servidor.
+> Algunos comandos pueden estar sujetos a permisos específicos o rangos dentro del servidor.
+{: .prompt-warning }
+
