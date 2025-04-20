@@ -1,27 +1,13 @@
 ---
 layout: post
-title: guia de comandos lands
+title: Guía de Comandos Lands
+description: Guía detallada de comandos Lands para empezar en el servidor.
 date: 2025-04-19 12:31 -0600
 authors: [carlosvg7]
 ---
 # Guía Avanzada de Comandos para el Plugin **Lands**
 
 Esta guía proporciona una visión detallada de los comandos disponibles para la gestión de terrenos **Lands**, incluyendo administración de zonas, economía, comunicación y guerra (si está activado en el servidor).
-
----
-
-## 📘 Índice
-
-- [Guía Avanzada de Comandos para el Plugin **Lands**](#guía-avanzada-de-comandos-para-el-plugin-lands)
-  - [📘 Índice](#-índice)
-  - [Comandos Generales para Jugadores](#comandos-generales-para-jugadores)
-  - [Gestión de Zonas y Subáreas](#gestión-de-zonas-y-subáreas)
-  - [Sistema de Guerra (Opcional)](#sistema-de-guerra-opcional)
-  - [Comandos de Chat y Comunicación](#comandos-de-chat-y-comunicación)
-  - [Configuraciones y Protección](#configuraciones-y-protección)
-  - [Banco y Economía](#banco-y-economía)
-  - [Otros Comandos Útiles](#otros-comandos-útiles)
-  - [Acceso a Todos los Comandos](#acceso-a-todos-los-comandos)
 
 ---
 
@@ -123,6 +109,7 @@ Para visualizar todos los comandos disponibles en el servidor, puedes utilizar:
 ...
 ```
 
-También puedes escribir `/lands` y presionar **TAB** para acceder a la función de autocompletado de comandos.
+> También puedes escribir `/lands` y presionar **TAB** para acceder a la función de autocompletado de comandos.
+{: .prompt-tip }
 
 ---
